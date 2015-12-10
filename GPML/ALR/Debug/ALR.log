@@ -1,0 +1,42 @@
+﻿生成启动时间为 2015/10/13 星期二 14:17:37。
+     1>项目“C:\Users\TZ\Desktop\ALR\ALR\ALR\ALR.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\ALR.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\ALR.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\work\opencv3.0\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ALR.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\work\opencv3.0\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ALR.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ALR.cpp GPML.cpp
+         GPML.cpp
+     1>d:\opencv3.0\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv3.0\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(381): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(382): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(413): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(414): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(468): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(468): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(469): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\tz\desktop\alr\alr\alr\gpml.cpp(662): warning C4101: “e”: 未引用的局部变量
+         ALR.cpp
+     1>d:\opencv3.0\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv3.0\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\tz\desktop\alr\alr\alr\alr.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\tz\desktop\alr\alr\alr\alr.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\tz\desktop\alr\alr\alr\alr.cpp(149): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TZ\Desktop\ALR\ALR\Debug\ALR.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\work\opencv3.0\x86\vc10\lib opencv_world300d.lib opencv_ts300.lib opencv_ts300d.lib opencv_world300.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\TZ\Desktop\ALR\ALR\Debug\ALR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TZ\Desktop\ALR\ALR\Debug\ALR.lib" /MACHINE:X86 Debug\ALR.obj
+         Debug\GPML.obj
+         Debug\stdafx.obj
+         ALR.vcxproj -> C:\Users\TZ\Desktop\ALR\ALR\Debug\ALR.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ALR.unsuccessfulbuild”。
+         正在对“Debug\ALR.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\TZ\Desktop\ALR\ALR\ALR\ALR.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.29
